@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timeglance"
+version = "0.1.0"
+description = "Zero-config loop execution and memory prediction."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Hameez" }]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
